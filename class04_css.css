@@ -1,0 +1,19 @@
+h1{
+	color:Tomato;
+	}
+#h3{
+	background-color:MediumSeaGreen;
+	color:white;
+	}
+p{
+	color:red;
+	background-color:powderblue;
+	}
+#p3{
+	background-color:orange;
+	}
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+	}
