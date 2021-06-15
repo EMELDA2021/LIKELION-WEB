@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<p id="hw">외부함수:색상이 변합니다.</p>
+<p id="demo">내부함수:내용이 변합니다.</p>
+<script src="./myFnc1.js"></script>
+<button type="button" onclick="myFnc1()">외부 함수실행</button>
+<button type="button" onclick="changeFcn()">내부 함수실행</button>
+<script>
+  // 함수에 어떤 값을 넣고, 그 값으로 변경해 보기
+function changeFcn() {
+  document.getElementById('demo').innerHTML='반갑습니다.';
+  }
+</script>
+</body>
+</html>
