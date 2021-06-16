@@ -11,7 +11,7 @@
 |01_01_날짜버튼.html |01_01.html | 첫 자바스크립트 만들기|
 |01_02_알람.html |01_02.html | alert() 함수를 이용한 경고 메시지 출력|
 |01_03_변수알람.html |01_03.html | alert() 함수에 변수 넣기|
-|01_04_함수.html |01_04.html | alert() 함수 만들기|
+|01_04_함수.html |01_04.html | function 함수 만들기|
 |01_05_버튼클릭시알람.html |01_05.html | 버튼 클릭시 alert 출력|
 |01_06_onmouseover.html |01_06.html | onmouseover 요소 나타내기|
 |01_07_onmouse.html |01_07.html | onmouse 관련 요소 보기|
