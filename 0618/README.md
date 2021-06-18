@@ -21,3 +21,11 @@ point) if_____ is not None
 왜 !=를 사용하시지 않았을까? 
 NoneType이랑 비교를 할 때에는 ==나 !=가 아니라 반드시 is나 is not을 사용해야 한다고 합니다.
 
+2.selenium 설치하고 find_elements사용해보기
+
+3.bs4와 selenium 같이 사용해보기
+
+https://pythonstart.github.io/web/
+실습1) BeautifulSoup를 이용해서 전체 링크 내용을 가져와 보자.
+실습2) Selenium를 이용(함수 find_elements...)을 이용해서 전체 링크를 가져와 보자.
+실습3) 02. 텍스트 가져오기, 03. 링크 가져오기 페이지의 내용을 가지고 오기.
