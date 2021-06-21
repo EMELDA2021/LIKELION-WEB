@@ -1,6 +1,6 @@
 # Repository name : LikeLion_Web_0621
 ### Repository Content
-  * 내용 : naver 크롤링
+  * 내용 : amazon 크롤링
   * 참조 코드 : 
 
 ### 소스 코드
