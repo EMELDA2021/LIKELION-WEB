@@ -38,25 +38,29 @@ tip).describe()
 
 자료를 보고 가설세우기
 
-질문)왜 생존자가 Pclass에 따라 달라지는가?
-가설)
-1.혹시 1등급은 여성이 많아서 그런 것은 아닐까? (남성이 더 많다. 이 가설은 생각을 해보자.)
-2.남성이 구조에 후 순위에 있었다. 3등급은 남성이 많기 때문에 ... ( 어느 정도 맞는 것 같다.)
-3.Pclass별 나이를 확인해 봐야 하는데...
+ - 질문)왜 생존자가 Pclass에 따라 달라지는가?
+ - 가설)
+ - 1.혹시 1등급은 여성이 많아서 그런 것은 아닐까? (남성이 더 많다. 이 가설은 생각을 해보자.)
+ - 2.남성이 구조에 후 순위에 있었다. 3등급은 남성이 많기 때문에 ... ( 어느 정도 맞는 것 같다.)
+ - 3.Pclass별 나이를 확인해 봐야 하는데...
   -- 나이가 많은 분들이 많이 구조된 것 같다.
   -- 나이가 적은 사람들은 1등급에 별로 없다.
->생존에 영향을 끼치는 요소 - Age, Pclass
+  >생존에 영향을 끼치는 요소 - Age, Pclass
 
-4.남성이 구조에 후 순위에 있었다. 3등급은 남성이 많기 때문에 ... ( 어느 정도 맞는 것 같다.)
-5.Embarked가 어떤 영향을 끼쳤는지?
-6.Fare가 히스토그램을 찍어보고 분포를 확인해 보기. Fare가 생존에 영향을 끼칠까요?
+  - 4.남성이 구조에 후 순위에 있었다. 3등급은 남성이 많기 때문에 ... ( 어느 정도 맞는 것 같다.)
+  - 5.Embarked가 어떤 영향을 끼쳤는지?
+  - 6.Fare가 히스토그램을 찍어보고 분포를 확인해 보기. Fare가 생존에 영향을 끼칠까요?
 
 #3. 실습 프로젝트(팀)
-자료변경:코로나 누적 데이터 확보
-https://github.com/owid/covid-19-data/blob/master/public/data/owid-covid-data.csv
+  - 자료변경:코로나 누적 데이터 확보
+    https://github.com/owid/covid-19-data/blob/master/public/data/owid-covid-data.csv
 
-필요값만 추출(판다스)
-covid_data_filtered = covid_data_after_2021[["continent", "location", "date", "total_cases", "new_cases", "total_deaths", "new_deaths_smoothed" ,"hosp_patients","positive_rate","new_vaccinations_smoothed","population","reproduction_rate"]]
+  - 필요값만 추출(판다스)
+     covid_data_filtered = covid_data_after_2021[["continent", "date", "new_cases_smoothed","new_deaths_smoothed",
+     "hosp_patients","new_vaccinations_smoothed","population","reproduction_rate"]]
 
-추출한 콜롬으로 비교값 그래프화
-활용값:new_cases_smoothed, new_deaths_smoothed, reproduction_rate
+  - 추출한 콜롬으로 비교값 그래프화
+    활용값:new_cases_smoothed, new_deaths_smoothed, reproduction_rate
+![new_death](https://user-images.githubusercontent.com/85726172/123183832-5e469400-d4cd-11eb-8180-c40ac9837b61.jpg)
+![reproduction](https://user-images.githubusercontent.com/85726172/123183838-63a3de80-d4cd-11eb-8676-1494dd08be9e.jpg)
+![new_cases](https://user-images.githubusercontent.com/85726172/123183850-67376580-d4cd-11eb-8608-ab7cdd24a012.png)
