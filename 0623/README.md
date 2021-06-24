@@ -11,28 +11,28 @@
 #1. seaborn의 기본 실습
 
 *그래프별 특징확인
-sns.boxplot
-sns.barplot
-sns.lmplot
-sns.relplot
-sns.jointplot
-sns.scatterplot
-sns.heatmap
-sns.pairplot
-sns.countplot
+ - sns.boxplot
+ - sns.barplot
+ - sns.lmplot
+ - sns.relplot
+ - sns.jointplot
+ - sns.scatterplot
+ - sns.heatmap
+ - sns.pairplot
+ - sns.countplot
 
 *데이터 확인 함수
-data.shape
-data.columns
-data.info()
-data.describe()
-data.dtype
-data.corr()
+ - data.shape
+ - data.columns
+ - data.info()
+ - data.describe()
+ - data.dtype
+ - data.corr()
 
 tip).describe()
-숫자형 자료의 경우 결과값의 index(좌측)은 개수, 평균, 표준편차, 최소, 최대,  lower, upper, 50% 가 리턴된다.
-Object 자료, 예를 들어 문자열, 타임스탬프(시간)은 개수, unique (용어를 모르는데 중복을 제외한 값들의 개수?), 최빈값과, 그 값의 빈도를 보여준다.
-위의 둘이 섞여있는 경우는 숫자로만 되어있는 열(column)만 분석해서 알려준다고 되어있네요.
+ - 숫자형 자료의 경우 결과값의 index(좌측)은 개수, 평균, 표준편차, 최소, 최대,  lower, upper, 50% 가 리턴된다.
+ - Object 자료, 예를 들어 문자열, 타임스탬프(시간)은 개수, unique (용어를 모르는데 중복을 제외한 값들의 개수?), 최빈값과, 그 값의 빈도를 보여준다.
+ - 위의 둘이 섞여있는 경우는 숫자로만 되어있는 열(column)만 분석해서 알려준다고 되어있네요.
 
 #2. 타이타닉(캐글)
 
