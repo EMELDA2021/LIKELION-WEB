@@ -33,6 +33,8 @@ Team. 이희희 (이성준, 조희창, 노진희)
 
 ## 인구 대 사망자수 내림차순 그래프 (대륙별)
 
+<img width="1455" alt="_2021-06-22_14 29 57" src="https://user-images.githubusercontent.com/85726172/123285386-f6815f00-d547-11eb-910b-d8cd1b6996de.png">
+
 ![images/_2021-06-22_14.29.57.png](images/_2021-06-22_14.29.57.png)
 
 ---
@@ -62,9 +64,14 @@ Team. 이희희 (이성준, 조희창, 노진희)
 
 ## 데이터 분석 (1 / 3)
 
+![Untitled 1](https://user-images.githubusercontent.com/85726172/123285420-fe410380-d547-11eb-8ec3-8289cfe3fcb1.png)
+
+
 ![images/Untitled.png](images/Untitled.png)
 
 신규 확진자수 (평균)
+
+![Untitled 2](https://user-images.githubusercontent.com/85726172/123285455-06993e80-d548-11eb-9b47-996eab61edfd.png)
 
 ![images/Untitled%201.png](images/Untitled%201.png)
 
@@ -79,9 +86,12 @@ Team. 이희희 (이성준, 조희창, 노진희)
 
 ## 데이터 분석 (2 / 3)
 
+![Untitled 3](https://user-images.githubusercontent.com/85726172/123285494-0dc04c80-d548-11eb-8a4d-66d897f9872b.png)
+
 ![images/Untitled%202.png](images/Untitled%202.png)
 
 인구 대비 신규 확진자수 (평균)
+
 
 ![images/Untitled%201.png](images/Untitled%201.png)
 
@@ -91,6 +101,8 @@ Team. 이희희 (이성준, 조희창, 노진희)
 - 아시아의 경우 신규 확진자수와 신규 사망자수의 그래프 양상이 다소 차이가 있었다.
 
 ## 데이터 분석 (3 / 3)
+
+![Untitled](https://user-images.githubusercontent.com/85726172/123285543-1b75d200-d548-11eb-8ee4-89e2657aa4dd.png)
 
 ![images/Untitled%203.png](images/Untitled%203.png)
 
