@@ -32,3 +32,6 @@
 #2. 팀과제 중간 발표
 
 https://www.notion.so/1-2-4dfc0c48aa6046c2a5ef11d3e654782c
+
+![0705_vacc_per_msg](https://user-images.githubusercontent.com/85726172/124525785-832af780-de3b-11eb-9f3b-a768567e90b8.png)
+
