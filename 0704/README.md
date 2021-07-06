@@ -18,4 +18,4 @@
  ### 그래프 그리기
  - scipy 싸이파이 이용하여 peak 계산
  - twinx 사용하여 같은 그래프에 겹쳐 그리기
- 
+ ![0704_tested_daily](https://user-images.githubusercontent.com/85726172/124489080-91512780-ddeb-11eb-9250-f3357e9c6dfb.jpg)
