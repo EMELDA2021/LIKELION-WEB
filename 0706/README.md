@@ -12,7 +12,7 @@
   from sklearn.ensemble import RandomForestClassifier
   model = RandomForestClassifier()
   model.fit(X_train, y_train)
-  pred = model.predict(X_test)
+  pred = model.predict(X_test)![0705_vacc_per_msg]
 
   sub['Survived'] = pred
   sub.to_csv("first0706_rf01.csv", index=False)
@@ -30,7 +30,13 @@ https://www.notion.so/1-2-4dfc0c48aa6046c2a5ef11d3e654782c
   vacc_encouragement = msg_total[msg_total["msg"].str.contains("백신")]
   vacc_encouragement = vacc_encouragement.loc[~((vacc_encouragement["msg"].str.contains("백신Song")) | (vacc_encouragement["msg"].str.contains("마스크")) | (vacc_encouragement["msg"].str.contains("확진자"))) ,:]
   vacc_encouragement
+  
+  ![0705_vacc_per_msg](https://user-images.githubusercontent.com/85726172/124683559-41b44e00-df08-11eb-973d-2dafb3bcdaf0.png)
+
  
  ### msg after 4
  - y축 값 보정하기. twinx로 통일시켜 그래프가 펌핑됨
    ax3.set_ylim(0,700)
+   
+   
+   ![0706_msg_after4](https://user-images.githubusercontent.com/85726172/124683579-4c6ee300-df08-11eb-8a34-737efc994a4b.png)
