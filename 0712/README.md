@@ -19,4 +19,15 @@
 	
  - 주제
 	유형별 임대주택 설계 시 단지 내 적정 주차 수요를 예측
-	
+
+
+# matplotlib를 활용한 시각화 파일 
+
+1. '도보 10분거리 내 지하철역 수(환승노선 수 반영)' value_counts
+
+![bar](https://user-images.githubusercontent.com/85726172/125231931-98f65c00-e316-11eb-80a8-762151874357.png)
+
+2. 단지내 주차면수와 corr 그래프
+
+![b](https://user-images.githubusercontent.com/85726172/125231947-9d227980-e316-11eb-9787-696adfb6c13e.png)
+
