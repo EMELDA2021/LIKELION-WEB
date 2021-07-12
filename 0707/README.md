@@ -11,8 +11,6 @@
  
 #2. 팀과제 수정
 
-https://www.notion.so/1-2-4dfc0c48aa6046c2a5ef11d3e654782c
-
  ### tested_daily per msg
  - 필요 없는 단어 빼기
   
